@@ -3,6 +3,7 @@ import 'package:fnf/home_menu_main/special_offers/mostPopular.dart';
 import 'package:fnf/home_menu_main/all_services/services_detail.dart';
 import 'package:fnf/home_menu_main/special_offers/specialOffer.dart';
 import 'package:fnf/home_menu_main/special_offers/user_services/electrician.dart';
+import 'package:fnf/home_menu_main/special_offers/user_services/mechanic.dart';
 
 class HomeAction extends StatefulWidget {
   const HomeAction({super.key});
@@ -307,7 +308,7 @@ class _HomeActionState extends State<HomeAction> {
 
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => MostPopular()),
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => MechanicServices()),
                     );
                   },
                   child: Column(
