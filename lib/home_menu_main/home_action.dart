@@ -2,8 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:fnf/home_menu_main/special_offers/mostPopular.dart';
 import 'package:fnf/home_menu_main/all_services/services_detail.dart';
 import 'package:fnf/home_menu_main/special_offers/specialOffer.dart';
+import 'package:fnf/home_menu_main/special_offers/user_services/carpenter.dart';
+import 'package:fnf/home_menu_main/special_offers/user_services/cleaning.dart';
 import 'package:fnf/home_menu_main/special_offers/user_services/electrician.dart';
+import 'package:fnf/home_menu_main/special_offers/user_services/event.dart';
+import 'package:fnf/home_menu_main/special_offers/user_services/laundry.dart';
 import 'package:fnf/home_menu_main/special_offers/user_services/mechanic.dart';
+import 'package:fnf/home_menu_main/special_offers/user_services/painter.dart';
+import 'package:fnf/home_menu_main/special_offers/user_services/plumber.dart';
 
 class HomeAction extends StatefulWidget {
   const HomeAction({super.key});
@@ -331,7 +337,7 @@ class _HomeActionState extends State<HomeAction> {
 
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => MostPopular()),
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => PlumberServices()),
                     );
                   },
                   child: Column(
@@ -355,7 +361,7 @@ class _HomeActionState extends State<HomeAction> {
 
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => MostPopular()),
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => PainterServices()),
                     );
                   },
                   child: Column(
@@ -379,7 +385,8 @@ class _HomeActionState extends State<HomeAction> {
 
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => MostPopular()),
+                    Navigator.push(context, MaterialPageRoute(
+                      builder: (context) => CarpenterServices()),
                     );
                   },
                   child: Column(
@@ -403,7 +410,8 @@ class _HomeActionState extends State<HomeAction> {
 
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => MostPopular()),
+                    Navigator.push(context, MaterialPageRoute(
+                      builder: (context) => LaundryServices()),
                     );
                   },
                   child: Column(
@@ -427,7 +435,8 @@ class _HomeActionState extends State<HomeAction> {
 
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => MostPopular()),
+                    Navigator.push(context, MaterialPageRoute(
+                      builder: (context) => CleaningServices()),
                     );
                   },
                   child: Column(
@@ -451,7 +460,8 @@ class _HomeActionState extends State<HomeAction> {
 
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => MostPopular()),
+                    Navigator.push(context, MaterialPageRoute(
+                      builder: (context) => EventServices()),
                     );
                   },
                   child: Column(
