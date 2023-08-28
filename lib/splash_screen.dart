@@ -40,8 +40,11 @@ class _SplashState extends State<Splash> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          Image.asset('assets/images/fyp_logo.png'),
-          const CircularProgressIndicator(color: Color.fromARGB(255, 5, 122, 195)),
+          Image.asset('assets/images/logo.png',
+          height: 270,
+          width: 270,
+          ),
+          const CircularProgressIndicator(color: Color.fromARGB(255, 33, 150, 243)),
           //const Text('Copyrights Reserved',style: TextStyle(fontSize: 8),
           //),
         ],
