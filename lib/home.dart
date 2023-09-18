@@ -17,14 +17,14 @@ class _HomePageState extends State<HomePage> {
   List<String> images = [
     "assets/images/ProfessionalServices.png", 
     "assets/images/FriendlyPrices.png",
-    "assets/images/UserFriendly.png",
+    "assets/images/doorstep.png",
 
   ];
 
   List<String> imageTexts = [
-    "Professional Services",
-    "Friendly Prices",
-    "User Friendly"
+    "Let's make awesome changes to your home",
+    "Professional Services at friendly prices",
+    "Affordable Services at your door step"
   ];
 
   @override
@@ -57,12 +57,16 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ),
                       Padding(
+                        
                         padding: const EdgeInsets.all(30.0),
                         child: Text(
                           imageTexts[index % imageTexts.length],
+                          textAlign: TextAlign.center,
                           style: const TextStyle(
                             color: Color.fromARGB(255, 0, 0, 0),
                             fontSize: 24,
+                            fontWeight: FontWeight.bold
+                            
                           ),
                         ),
                       ),
