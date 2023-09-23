@@ -36,12 +36,14 @@ class _HomeActionState extends State<HomeAction> {
       
     const BottomNavigationBarItem(
       icon: Icon(Icons.home),
-      label: 'Home',
+      label: 'Home',      
     ),
+
     const BottomNavigationBarItem(
       icon: Icon(Icons.calendar_today),
       label: 'Calender',
     ),
+    
     const BottomNavigationBarItem(
       icon: Icon(Icons.person),
       label: 'Profile',

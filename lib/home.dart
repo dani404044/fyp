@@ -109,9 +109,7 @@ class _HomePageState extends State<HomePage> {
                       shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                         RoundedRectangleBorder(borderRadius: BorderRadius.circular(18.0),
                       )
-                    ),
-                    
-                    
+                    ),                    
                   ),
           )
           )

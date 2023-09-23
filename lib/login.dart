@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fnf/signup.dart';
+import 'package:fnf/signup_select.dart';
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
 
@@ -90,7 +91,7 @@ class LoginPage extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const SignUp()
+                      builder: (context) =>  ScreenSelection()
                       ),
                 );
                 },

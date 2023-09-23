@@ -56,7 +56,10 @@ class SignUp extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {
                   Navigator.push(context, 
-                  MaterialPageRoute(builder: (context) => const SignIn(),));
+                  MaterialPageRoute(
+                    builder: (context) =>  SignIn(),
+                    )
+                    );
                   
                 },
                 style: ButtonStyle(   
@@ -100,12 +103,7 @@ class SignUp extends StatelessWidget {
                   ),
                 ],
               ),
-              const Text(""),
-              const Text(""),
-              const Text(""),
-              const Text(""),
-              const Text(""),
-              const Text(""),
+              const SizedBox(height: 100),
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
