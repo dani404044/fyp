@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fnf/pass_forget/forget_pass.dart';
-
-import 'package:fnf/signup.dart';
-
+import 'package:fnf/signup_select.dart';
 import 'account_setup.dart';
 
 
@@ -133,7 +131,7 @@ class SignIn extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const SignUp()
+                      builder: (context) =>  ScreenSelection()
                       ),
                 );
                 },

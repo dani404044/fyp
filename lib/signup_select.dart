@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fnf/signup.dart';
+import 'package:fnf/signup_Customer.dart';
+import 'package:fnf/signup_ServiceProvider.dart';
 
 
 class ScreenSelection extends StatelessWidget {
@@ -20,8 +21,8 @@ class ScreenSelection extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 Navigator.push(context,
-                      // ignore: prefer_const_constructors
-                      MaterialPageRoute(builder: (context) => SignUp()));
+                      
+                      MaterialPageRoute(builder: (context) => SignUpCustomer()));
               },
               child:  Text('Registered as Customer',
               style:  TextStyle(
@@ -45,7 +46,7 @@ class ScreenSelection extends StatelessWidget {
               onPressed: () {
                 Navigator.push(context,
                       // ignore: prefer_const_constructors
-                      MaterialPageRoute(builder: (context) => SignUp()));
+                      MaterialPageRoute(builder: (context) => SignupServiceProvider()));
               },
               child: Text('Registered as Service Provider',
               style: TextStyle(
