@@ -35,7 +35,11 @@ class SignIn extends StatelessWidget {
                     borderRadius: BorderRadius.all(Radius.circular(10.0)),
                     borderSide: BorderSide(color: Colors.blue, width: 2.0),
 
-                  )
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(10.0)),
+                        borderSide: BorderSide(color: Colors.blue, width: 2.0),
+                      ),
                   
 
                 ),
@@ -51,6 +55,10 @@ class SignIn extends StatelessWidget {
                     borderSide: BorderSide(color: Colors.blue, width: 2.0),
                     
                   ),
+                  focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(10.0)),
+                        borderSide: BorderSide(color: Colors.blue, width: 2.0),
+                      ),
 
                 ),
                 obscureText: true,
@@ -98,10 +106,8 @@ class SignIn extends StatelessWidget {
 
               
               const SizedBox(height: 16.0),
-              const Text("or continue with",
-              style: TextStyle(fontSize: 12,
-              ),
-              ),
+              Image.asset('assets/images/continue.png', height: 10),
+
               const SizedBox(height: 16.0),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,

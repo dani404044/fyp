@@ -170,9 +170,7 @@ class _SignUpCustomerState extends State<SignUpCustomer> {
                 ),
               ),
               const SizedBox(height: 10),
-              Image.asset('assets/images/continue.png'),
-
-              const Text(""),
+              Image.asset('assets/images/continue.png', height: 10),              
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[

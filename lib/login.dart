@@ -98,10 +98,13 @@ class LoginPage extends StatelessWidget {
                     icon: Image.asset(
                       'assets/images/facebook3.png',
                       height: 24,
+                      
                     ),
                     label: const Text(
                       'Facebook',
-                      style: TextStyle(color: Colors.black),
+                      style: TextStyle(color: Colors.black,
+                      ),
+                      
                     ),
                     onPressed: () {
                       // Handle your Facebook login functionality here
